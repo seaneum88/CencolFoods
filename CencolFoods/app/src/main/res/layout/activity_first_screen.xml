@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignments.comp304.com.cencolfoods.FirstScreen">
+
+    <ImageView
+        android:layout_width="322dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo"
+        android:layout_x="31dp"
+        android:layout_y="53dp" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/buttonLogin"
+        android:onClick="Login"
+        android:layout_below="@+id/imageView"
+        android:layout_x="68dp"
+        android:layout_y="398dp" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/buttonRegister"
+        android:onClick="Register"
+        android:layout_below="@+id/imageView"
+        android:layout_x="70dp"
+        android:layout_y="454dp" />
+</AbsoluteLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignments.comp304.com.cencolfoods.Login">
+
+    <TextView
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="36dp"
+        android:id="@+id/textView"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="User Name : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="102dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="153dp"
+        android:id="@+id/textView3" />
+
+    <EditText android:id="@+id/editUsernameLogin"
+        android:layout_x="126dp"
+        android:layout_y="91dp"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText android:id="@+id/editPasswordLogin"
+        android:layout_x="127dp"
+        android:layout_y="139dp"
+        android:layout_width="232dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <Button	  android:id="@+id/btnLogin1"
+        android:text="Login"
+        android:layout_x="131dp"
+        android:layout_y="225dp"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="60dip"
+        android:minWidth="100dp" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_third_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignments.comp304.com.cencolfoods.Order">
+
+    <TextView android:text="Customer Details"
+        android:layout_x="80dp"
+        android:layout_y="22dp"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:id="@+id/TextViewHeading"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColorLink="@android:color/white" />
+
+    <TextView android:text="Customer ID"
+        android:layout_x="13dp"
+        android:layout_y="78dp"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/TextViewID"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColorLink="@android:color/white" />
+
+    <EditText android:id="@+id/editID"
+        android:inputType="number"
+        android:layout_x="166dp"
+        android:layout_y="67dp"
+        android:layout_width="179dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView android:text="Customer Name"
+        android:layout_x="12dp"
+        android:layout_y="137dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/TextViewName"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColorLink="@android:color/white" />
+
+    <EditText android:id="@+id/editName"
+        android:layout_x="165dp"
+        android:layout_y="124dp"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView android:text="Order"
+        android:layout_x="15dp"
+        android:layout_y="196dp"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/TextViewOrder"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColorLink="@android:color/white" />
+
+    <EditText android:id="@+id/editOrder"
+        android:layout_x="166dp"
+        android:layout_y="184dp"
+        android:layout_width="179dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+
+
+    <Button	  android:id="@+id/btnDelete"
+        android:text="@string/delete"
+        android:layout_x="120dp"
+        android:layout_y="289dp"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="60dip"
+        android:minWidth="100dp" />
+
+    <Button   android:id="@+id/btnView"
+        android:text="@string/view"
+        android:layout_x="110dp"
+        android:layout_y="347dp"
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="60dip"
+        android:minWidth="100dp" />
+
+    <Button   android:id="@+id/btnViewAll"
+        android:text="@string/view_all"
+        android:layout_x="110dp"
+        android:layout_y="400dp"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="60dip"
+        android:minWidth="100dp" />
+
+    <Button   android:id="@+id/btnLogout"
+        android:text="Logout"
+        android:layout_x="110dp"
+        android:layout_y="453dp"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="60dip"
+        android:minWidth="100dp" />
+
+</AbsoluteLayout>
